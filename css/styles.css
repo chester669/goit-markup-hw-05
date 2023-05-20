@@ -696,7 +696,7 @@ ol {
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     background-color: #e7e9fc;
-    transition: background-color var(--transition-duration-func),  border var(--transition-duration-func);
+    transition: background-color var(--transition-duration-func), border var(--transition-duration-func);
 }
 
 .modal-close:hover,
