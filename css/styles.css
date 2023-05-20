@@ -114,6 +114,7 @@ ol {
     padding: 24px 0;
     transition: color var(--transition-duration-func);
 }
+
 .menu-name:hover,
 .menu-name:focus {
     color: #404BBF;
@@ -575,7 +576,7 @@ ol {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-    transition: color var(--transition-duration-func), background-color var(--transition-duration-func), box-shadow var(--transition-duration-func);
+    transition: color var(--transition-duration-func), background-color var(--transition-duration-func), box-shadow var(--transition-duration-func), border-color var(--transition-duration-func);
 
 
 }
@@ -654,6 +655,7 @@ ol {
     transform: translateY(0);
 
 }
+
 /* backdrop */
 
 .backdrop {
@@ -694,8 +696,8 @@ ol {
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     background-color: #e7e9fc;
-    transition: background-color var(--transition-duration-func);
-    border var(--transition-duration-func);
+    transition: background-color var(--transition-duration-func),
+        border var(--transition-duration-func);
 }
 
 .modal-close:hover,
@@ -703,7 +705,11 @@ ol {
     background-color: #404bbf;
     border: none;
     fill: #ffffff
+}
 
+.close-btn:hover,
+..close-btn:focus {
+    fill: #ffffff;
 }
 
 .close-btn {
