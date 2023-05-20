@@ -702,16 +702,12 @@ ol {
 .modal-close:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff
+
 }
 
 .close-btn {
     transition: fill var(--transition-duration-func);
-}
-
-
-.close-btn:hover,
-.close-btn:focus {
-    fill: #ffffff
 }
 
 .is-hidden {
